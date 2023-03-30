@@ -1,0 +1,9 @@
+.own-style a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+.own-style a:hover{
+    color: tomato;
+}

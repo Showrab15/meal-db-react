@@ -1,0 +1,46 @@
+.own-style{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.cart-container{
+    background-color: antiquewhite;
+    margin: 50px;
+    padding: 25px;
+    height: 400px;
+    border-radius: 10px;
+    position: sticky;
+    top:0
+}
+
+
+.ccd{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+
+/* @media only screen and (max-width :576)  {
+    .own-style{
+        display: block;
+        grid-template-rows: 1fr;
+
+    }
+
+    .ccd{
+        grid-template-columns: 1fr;
+        gap: 10px;
+
+    }
+    
+    .cart-container{
+        padding: 15px;
+        height: 400px;
+        border-radius: 10px;
+        position: sticky;
+        top:0
+    }
+    }
+ */
